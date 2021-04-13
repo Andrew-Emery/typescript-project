@@ -1,0 +1,49 @@
+.experience-item {
+}
+
+@keyframes rotater {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(90deg);
+    }
+}
+
+@keyframes revrotater {
+    from {
+        transform: rotate(90deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
+}
+
+.button {
+    display: inline-block;
+    cursor: pointer;
+    width: min-content;
+    user-select: none;
+}
+
+.expanded-button {
+    animation: .2s linear 0s 1 forwards rotater;
+}
+
+.collapsed-button {
+    animation: .2s linear 0s 1 forwards revrotater;
+}
+
+.skill-pill-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skill-pill {
+    margin-right: 5px;
+    margin-bottom: 5px;
+    color: white;
+    border-radius: 5px;
+    padding: 0 5px;
+    text-shadow: 0 0 3px red, 0 0 5px blue;
+}

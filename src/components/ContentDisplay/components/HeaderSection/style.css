@@ -1,0 +1,11 @@
+#header-container {
+    background-color: #1DB954;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+    box-shadow: 0 0 4px black;
+    padding: 10px 20px;
+}
+
+#header {
+    font-size: 22px;
+}
